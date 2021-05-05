@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<title>Contact Us | RIOT GAMES</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: rgba(175,37,37,1);
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+    #myBtn:hover {
+      background-color: #555;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .contact-section{
+      background-size: contain;
+      background: url(news-header.jpg);
+      padding: 160px 0;
+    }
+    .contact-section h1{
+      text-align: center;
+      color: #ddd;
+    }
+    .border{
+      width: 100px;
+      height: 10px;
+      background: #34495e;
+      margin: 40px auto;
+    }
+    .contact-form{
+      max-width: 600px;
+      margin: auto;
+      padding: 0 10px;
+      overflow: hidden;
+    }
+    .contact-form-text{
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 16px 0;
+      border: 0;
+      background: #111;
+      padding: 20px 40px;
+      outline: none;
+      color: #ddd;
+      transition: 0.5s;
+    }
+    .contact-form-text:focus{
+      box-shadow: 0 0 10px 4px #941a04;
+    }
+    textarea.contact-form-text{
+      resize: none;
+      height: 120px;
+    }
+    .contact-form-btn{
+      float: right;
+      border: 0;
+      background: #941a04;
+      color: #fff;
+      padding: 12px 50px;
+      border-radius: 20px;
+      cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+      text-decoration: none;
+  }
+  hr{
+        height: 1px;
+        background-color: #000000;
+        border: none;
+  }
+  .articlep{
+    margin:0px 20px;
+  }
+  .girassolfont {
+    font-family: 'Girassol', cursive;
+  }
+  .copyright{
+    font-family:"Courier";
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body style="background-color:#2C2929;color:white;">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <img src="logo.png" width="44" height="44" alt="Riot Logo">
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="RiotGames.html">Home</a></li>
+        <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="Games.html">Games
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background-color:#000000;">
+            <li><a href="Games.html">Game Gallery</a></li>
+            <li><a href="lol.html">League of Legends</a></li>
+            <li><a href="lor.html">League of Runeterra</a></li>
+            <li><a href="valo.html">Valorant</a></li>
+          </ul>
+        </li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="News.html">News</a></li>
+      <li class="active"><a href="Contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+<section>
+  <div class="contact-section" style="position:relative;top:-20px;">
+    <h1 style="font-size: 60px" class="girassolfont">Contact Us</h1>
+    <form class="contact-form" action="mailto:support@email.riotgames.com" method="post">
+    <input type="text" class="contact-form-text" placeholder="Your name">
+    <input type="email" class="contact-form-text" placeholder="Your email">
+    <input type="text" class="contact-form-text" placeholder="Your phone">
+    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+    <input type="submit" class="contact-form-btn" value="Submit">
+  </form>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+      <h1 style="text-align:center;font-size: 40px" class="girassolfont">Our Location</h1>
+      <br />
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.4445327167023!2d-118.45963758446031!3d34.03246642621874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb147c58ab95%3A0xd27aa3a914d492b4!2sRiot%20Games%20Inc.!5e0!3m2!1sen!2sph!4v1620215865982!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <br />
+</div>
+</div>
+</div>
+</section>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top" class="fa fa-angle-double-up"></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<footer style="margin-left:auto;margin-right:auto;background-color:#2C2929;color:white;margin-top:50px;">
+  <hr />
+  <center>
+  <a href="https://www.facebook.com/RiotGames/" class="fa fa-facebook-square"></a>
+  <a href="https://twitter.com/riotgames?s=20" class="fa fa-twitter-square"></a>
+  <a href="https://www.youtube.com/c/riotgames/featured" class="fa fa-youtube-square"></a>
+  <p class="copyright" style= "color: #C7C3C1">By:	Beltran,		Domingo,		Miguel,		Quinto</p>
+  <p class="copyright" style="color: #9D9B99">©2017 Riot Games. All Rights Reserved.</p>
+  <br />
+  </center>
+</footer>
+</body>
+</html>
